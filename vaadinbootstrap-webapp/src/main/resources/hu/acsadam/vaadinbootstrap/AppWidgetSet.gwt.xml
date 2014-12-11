@@ -3,23 +3,23 @@
 <module>
 	<inherits name="com.vaadin.DefaultWidgetSet" />
 
-    <inherits name="org.vaadin.activelink.ActivelinkWidgetset" />
+    
 
-    <inherits name="org.vaadin.hene.popupbutton.widgetset.PopupbuttonWidgetset" />
+    
 
-    <inherits name="org.vaadin.peter.buttongroup.ButtonGroupWidgetset" />
+    
 
-    <inherits name="org.vaadin.tokenfield.TokenfieldWidgetset" />
+    
 
-    <inherits name="com.avathartech.fastformfields.widgets.FastformfieldsWidgetset" />
+    
 
-    <inherits name="org.vaadin.alump.distributionbar.gwt.DistributionBarWidgetset" />
+    
 
-    <inherits name="org.vaadin.addons.maskedtextfield.MaskedTextFieldWidgetset" />
+    
 
-    <inherits name="com.wcs.wcslib.vaadin.widget.multifileupload.MultiFileUploadWidgetSet" />
+    
 
-    <inherits name="org.vaadin.peter.contextmenu.ContextmenuWidgetset" />
+    
 
-    <inherits name="org.tepi.filtertable.gwt.FilterTableWidgetset" />
+    
 </module>

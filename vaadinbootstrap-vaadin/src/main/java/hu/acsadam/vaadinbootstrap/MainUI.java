@@ -1,5 +1,7 @@
 package hu.acsadam.vaadinbootstrap;
 
+import hu.acsadam.vaadinbootstrap.user.User;
+
 import java.util.Locale;
 
 import org.apache.log4j.Logger;
@@ -13,7 +15,6 @@ import com.vaadin.annotations.Widgetset;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinSession;
 import com.vaadin.ui.HorizontalLayout;
-import com.vaadin.ui.Label;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
@@ -47,7 +48,12 @@ public class MainUI extends UI {
 		content.setSizeFull();
 		main.addComponent(content);
 
+		User user = new User();
+		user.setPassword("sdpiokf");
+		user.setUsername("adam");
+		user.save();
 		setContent(main);
+		System.out.println(User.get("adam"));
 	}
 
 	private void setupNavigator() {

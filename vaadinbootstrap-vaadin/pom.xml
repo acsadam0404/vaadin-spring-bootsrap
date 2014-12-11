@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>hu.acsadam.vaadinbootstrap</groupId>
 		<artifactId>vaadinbootstrap-superpom</artifactId>
-		<version>1.2.1</version>
+		<version>0.1.0-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
@@ -41,37 +41,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>fastformfields</artifactId>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>contextmenu</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>activelink</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.alump.distributionbar</groupId>
-			<artifactId>dbar-addon</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.wcs.wcslib</groupId>
-			<artifactId>wcslib-vaadin-widget-multifileupload</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>tokenfield</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<scope>provided</scope>
@@ -79,11 +48,6 @@
 		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>maskedtextfield</artifactId>
 		</dependency>
 
 		<dependency>
@@ -102,48 +66,6 @@
 			<artifactId>spring-vaadin-integration</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-config</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.ldap</groupId>
-			<artifactId>spring-ldap-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.ldap</groupId>
-			<artifactId>spring-ldap-core-tiger</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-ldap</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>filteringtable</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>tableexport</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addons</groupId>
-			<artifactId>buttongroup</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.vaadin.addon</groupId>
-			<artifactId>confirmdialog</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
