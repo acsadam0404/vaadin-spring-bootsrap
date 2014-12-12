@@ -1,12 +1,13 @@
 package hu.acsadam.vaadinbootstrap.user
 
-import groovy.transform.EqualsAndHashCode;
+import groovy.transform.EqualsAndHashCode
 import hu.acsadam.vaadinbootstrap.BaseEntity
 
 import javax.persistence.Entity
 import javax.persistence.Table
 import javax.validation.constraints.NotNull
 
+import org.springframework.beans.factory.annotation.Autowire
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Configurable
 
@@ -30,11 +31,11 @@ class User extends BaseEntity{
 	static get(String username) {
 		repo.findByUsername(username)
 	}
-	
+
 	User save() {
 		repo.save(this)
 	}
-	
+
 	@Override
 	String toString() {
 		username
