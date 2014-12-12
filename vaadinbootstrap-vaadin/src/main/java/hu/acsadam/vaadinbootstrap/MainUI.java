@@ -19,7 +19,7 @@ import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
 
-@Theme("valo")
+@Theme("main")
 @org.springframework.stereotype.Component("MainUI")
 @Scope("prototype")
 @Widgetset("hu.acsadam.vaadinbootstrap.AppWidgetSet")
