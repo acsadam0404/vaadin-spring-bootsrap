@@ -1,7 +1,5 @@
 package hu.acsadam.vaadinbootstrap;
 
-import hu.acsadam.vaadinbootstrap.security.Authentication;
-
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -14,18 +12,18 @@ import com.vaadin.ui.Label;
 
 @Component
 @Scope("prototype")
-@VaadinView(HomeView.NAME)
-public class HomeView extends AbstractView implements View {
-	public static final String NAME = "";
+@VaadinView(OtherView.NAME)
+public class OtherView extends AbstractView implements View {
+	public static final String NAME = "other";
 
 
-	public HomeView() {
+	public OtherView() {
 
 	}
 
 
 	@Override
 	public void enter(ViewChangeEvent event) {
-		setCompositionRoot(new Label("Hello " + Authentication.getUser()));
+		setCompositionRoot(new Label("other view"));
 	}
 }

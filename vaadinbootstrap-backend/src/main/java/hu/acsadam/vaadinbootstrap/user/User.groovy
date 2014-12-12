@@ -28,7 +28,7 @@ class User extends BaseEntity{
 	@NotNull
 	String password
 
-	static get(String username) {
+	static User get(String username) {
 		repo.findByUsername(username)
 	}
 

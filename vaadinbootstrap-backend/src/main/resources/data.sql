@@ -4,3 +4,5 @@ create table user (
     password varchar(255) not null,
     primary key (id)
 );
+
+insert into User (id, username, password) values (1, 'aacs', 'aacs');
